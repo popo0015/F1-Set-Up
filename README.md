@@ -17,8 +17,8 @@ The F1 Setup App is a web application designed for Formula 1 enthusiasts to brow
 
 ## Screenshots
 Some content ideas developed using AI:
-![banner01.jpg](..%2Fbanner01.jpg)
-![design idea 02.jpg](..%2Fdesign%20idea%2002.jpg)
+![banner01.jpg](/public/images/banner01.jpg)
+![design idea 02.jpg](/public/images/design%20idea%2002.jpg)
 
 ## Important
 This project is only for learning purposes. It is still in a very early stage of the development. Its idea is to help me grasp some development, data science and engineering concepts and apply them in the realm of Formula 1!
