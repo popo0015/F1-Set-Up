@@ -59,9 +59,9 @@
 
 <div class="relative min-h-screen flex flex-col items-center justify-center text-center px-4">
     <!-- Background Image -->
-    <div class="absolute inset-0 bg-cover bg-center opacity-50 z-0 mix-blend-luminosity"
-         style="background-image: url('{{ asset('images/track.jpg') }}');"></div>
-    <div class="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
+    <div class="absolute inset-0 bg-cover bg-center opacity-80 z-0 mix-blend-luminosity"
+         style="background-image: url('{{ asset('images/track2.jpg') }}');"></div>
+    <div class="absolute inset-0 bg-black bg-opacity-40 z-0"></div>
 
     {{$slot}}
 </div>

@@ -8,12 +8,34 @@
     <!-- Car and Speed Images -->
     <div class="relative w-full max-w-sm mx-auto mb-8 md:max-w-md lg:max-w-lg z-10">
         <div class="relative w-full h-auto">
-            {{--            <img src="{{ asset('images/speed.png') }}" alt="speed lines under the car"--}}
-            {{--                 class="absolute inset-0 w-full h-auto object-cover">--}}
             <img id="car-image" src="{{ asset('images/redbull_top.png') }}" alt="RedBull 2023 car top view"
                  class="relative w-full h-auto">
         </div>
     </div>
+
+    <!--Theory explained buttons-->
+    <section class="relative z-10 grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-6 lg:gap-8 mb-10">
+        <a href="{{route('aerodynamics')}}" class="flex flex-col items-center bg-gray-800 hover:bg-red-500 p-4 rounded-lg transition duration-300 group">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/airodynamic.png" alt="airodynamic" class="transition duration-300"/>
+            <p class="mt-2 text-xs">Aerodynamics</p>
+        </a>
+        <a href="{{route('suspension')}}" class="flex flex-col items-center bg-gray-800 hover:bg-red-500 p-4 rounded-lg transition duration-300 group">
+            <img width="50" height="50" src="https://img.icons8.com/external-icongeek26-outline-icongeek26/50/FFFFFF/external-suspension-equipments-icongeek26-outline-icongeek26-1.png" class="transition duration-300"/>
+            <p class="mt-2 text-xs">Suspension</p>
+        </a>
+        <a href="{{route('engine')}}" class="flex flex-col items-center bg-gray-800 hover:bg-red-500 p-4 rounded-lg transition duration-300 group">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/engine.png" alt="engine" class="transition duration-300"/>
+            <p class="mt-2 text-xs">Engine mapping</p>
+        </a>
+        <a href="{{route('tyres')}}" class="flex flex-col items-center bg-gray-800 hover:bg-red-500 p-4 rounded-lg transition duration-300 group">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/wheel.png" alt="wheel" class="transition duration-300"/>
+            <p class="mt-2 text-xs">Tyres</p>
+        </a>
+        <a href="{{route('geometry')}}" class="flex flex-col items-center bg-gray-800 hover:bg-red-500 p-4 rounded-lg transition duration-300 group">
+            <img width="50" height="50" src="https://img.icons8.com/dotty/50/FFFFFF/graph.png" alt="graph" class="transition duration-300"/>
+            <p class="mt-2 text-xs">Other geometry</p>
+        </a>
+    </section>
 
     <section class="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
         <!-- Card 1: View Saved Setups -->
