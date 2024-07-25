@@ -6,12 +6,12 @@
     </div>
 
     <!-- Car and Speed Images -->
-    <div class="relative w-full max-w-sm mx-auto mb-8 md:max-w-md lg:max-w-lg z-10">
+    <section class="relative w-full max-w-sm mx-auto mb-8 md:max-w-md lg:max-w-lg z-10">
         <div class="relative w-full h-auto">
             <img id="car-image" src="{{ asset('images/redbull_top.png') }}" alt="RedBull 2023 car top view"
                  class="relative w-full h-auto">
         </div>
-    </div>
+    </section>
 
     <!--Theory explained buttons-->
     <section class="relative z-10 grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-6 lg:gap-8 mb-10">
